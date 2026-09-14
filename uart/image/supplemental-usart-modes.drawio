@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2026-09-14T00:00:00.000Z" agent="Codex" version="24.7.17">
+  <diagram id="usart-modes" name="Page-1">
+    <mxGraphModel dx="1440" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="760" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="USART 通信模式与扩展功能" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=32;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="360" y="25" width="720" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="basicGroup" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F9FE;strokeColor=#4E79A7;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="140" width="500" height="420" as="geometry"/>
+        </mxCell>
+        <mxCell id="extendedGroup" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9F4;strokeColor=#C05621;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="110" width="500" height="480" as="geometry"/>
+        </mxCell>
+        <mxCell id="basicTitle" value="基本通信模式" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Microsoft YaHei;fontSize=26;fontStyle=1;fontColor=#2F5F8F;" vertex="1" parent="1">
+          <mxGeometry x="150" y="160" width="340" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="extendedTitle" value="专用模式与扩展功能" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Microsoft YaHei;fontSize=26;fontStyle=1;fontColor=#A64A1D;" vertex="1" parent="1">
+          <mxGeometry x="950" y="130" width="340" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="async" value="异步全双工通信" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F1FB;strokeColor=#4E79A7;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=23;fontStyle=1;fontColor=#1F2937;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="135" y="230" width="370" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="sync" value="同步单向通信" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F1FB;strokeColor=#4E79A7;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=23;fontStyle=1;fontColor=#1F2937;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="135" y="330" width="370" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="singleWire" value="单线半双工通信" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F1FB;strokeColor=#4E79A7;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=23;fontStyle=1;fontColor=#1F2937;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="135" y="430" width="370" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="lin" value="LIN 模式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDEFE7;strokeColor=#C05621;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=22;fontStyle=1;fontColor=#1F2937;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="925" y="200" width="185" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="irda" value="IrDA 红外通信" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDEFE7;strokeColor=#C05621;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=22;fontStyle=1;fontColor=#1F2937;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="200" width="185" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="smartcard" value="智能卡通信" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDEFE7;strokeColor=#C05621;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=22;fontStyle=1;fontColor=#1F2937;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="925" y="305" width="185" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="flow" value="CTS/RTS&lt;br&gt;硬件流控" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDEFE7;strokeColor=#C05621;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontStyle=1;fontColor=#1F2937;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="305" width="185" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="multi" value="多处理器通信" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDEFE7;strokeColor=#C05621;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=22;fontStyle=1;fontColor=#1F2937;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="925" y="410" width="185" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="dma" value="DMA 多缓冲通信" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDEFE7;strokeColor=#C05621;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=22;fontStyle=1;fontColor=#1F2937;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="410" width="185" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="usart" value="USART" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4D6;strokeColor=#D6A23A;strokeWidth=3;fontFamily=Microsoft YaHei;fontSize=30;fontStyle=1;fontColor=#5F4700;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="610" y="310" width="220" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrowBasic" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;strokeColor=#4E79A7;startArrow=none;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="610" y="365" as="sourcePoint"/><mxPoint x="570" y="365" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="arrowExtended" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;strokeColor=#C05621;startArrow=none;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="830" y="365" as="sourcePoint"/><mxPoint x="870" y="365" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="note" value="前 3 项是基本通信模式；右侧项目是专用模式或辅助功能。" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4D6;strokeColor=#D6A23A;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=23;fontStyle=1;fontColor=#5F4700;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="260" y="635" width="920" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="sourceNote" value="补充图（非原文图）" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="540" y="725" width="360" height="35" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" modified="2026-09-14T00:00:00.000Z" agent="Codex" version="24.7.17">
+  <diagram id="mark-space-levels" name="Page-1">
+    <mxGraphModel dx="1440" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="760" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="UART 中的 Mark / Space 时序" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=32;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="360" y="25" width="720" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="subtitle" value="典型 UART 帧：空闲 → 起始位 → 数据位 → 停止位" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Microsoft YaHei;fontSize=22;fontColor=#4B5563;" vertex="1" parent="1">
+          <mxGeometry x="360" y="85" width="720" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="markLabel" value="Mark&lt;br&gt;逻辑 1&lt;br&gt;TTL 高电平" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;fontFamily=Microsoft YaHei;fontSize=22;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="20" y="198" width="145" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="spaceLabel" value="Space&lt;br&gt;逻辑 0&lt;br&gt;TTL 低电平" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;fontFamily=Microsoft YaHei;fontSize=22;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="20" y="340" width="145" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="highGuide" value="" style="edgeStyle=none;rounded=0;html=1;strokeWidth=2;strokeColor=#4E79A7;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="175" y="235" as="sourcePoint"/><mxPoint x="190" y="235" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="lowGuide" value="" style="edgeStyle=none;rounded=0;html=1;strokeWidth=2;strokeColor=#C05621;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="175" y="375" as="sourcePoint"/><mxPoint x="190" y="375" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="boundary1" value="" style="edgeStyle=none;rounded=0;html=1;dashed=1;strokeWidth=1;strokeColor=#CBD5E1;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="350" y="175" as="sourcePoint"/><mxPoint x="350" y="425" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="boundary2" value="" style="edgeStyle=none;rounded=0;html=1;dashed=1;strokeWidth=1;strokeColor=#CBD5E1;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="510" y="175" as="sourcePoint"/><mxPoint x="510" y="425" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="boundary3" value="" style="edgeStyle=none;rounded=0;html=1;dashed=1;strokeWidth=1;strokeColor=#CBD5E1;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="670" y="175" as="sourcePoint"/><mxPoint x="670" y="425" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="boundary4" value="" style="edgeStyle=none;rounded=0;html=1;dashed=1;strokeWidth=1;strokeColor=#CBD5E1;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="830" y="175" as="sourcePoint"/><mxPoint x="830" y="425" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="boundary5" value="" style="edgeStyle=none;rounded=0;html=1;dashed=1;strokeWidth=1;strokeColor=#CBD5E1;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="990" y="175" as="sourcePoint"/><mxPoint x="990" y="425" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="boundary6" value="" style="edgeStyle=none;rounded=0;html=1;dashed=1;strokeWidth=1;strokeColor=#CBD5E1;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="1150" y="175" as="sourcePoint"/><mxPoint x="1150" y="425" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="waveIdle" value="" style="edgeStyle=none;rounded=0;html=1;strokeWidth=6;strokeColor=#4E79A7;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="190" y="235" as="sourcePoint"/><mxPoint x="350" y="235" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="waveDown1" value="" style="edgeStyle=none;rounded=0;html=1;strokeWidth=6;strokeColor=#C05621;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="350" y="235" as="sourcePoint"/><mxPoint x="350" y="375" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="waveStart" value="" style="edgeStyle=none;rounded=0;html=1;strokeWidth=6;strokeColor=#C05621;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="350" y="375" as="sourcePoint"/><mxPoint x="510" y="375" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="waveUp1" value="" style="edgeStyle=none;rounded=0;html=1;strokeWidth=6;strokeColor=#4E79A7;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="510" y="375" as="sourcePoint"/><mxPoint x="510" y="235" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="waveData1" value="" style="edgeStyle=none;rounded=0;html=1;strokeWidth=6;strokeColor=#4E79A7;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="510" y="235" as="sourcePoint"/><mxPoint x="670" y="235" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="waveDown2" value="" style="edgeStyle=none;rounded=0;html=1;strokeWidth=6;strokeColor=#C05621;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="670" y="235" as="sourcePoint"/><mxPoint x="670" y="375" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="waveData0" value="" style="edgeStyle=none;rounded=0;html=1;strokeWidth=6;strokeColor=#C05621;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="670" y="375" as="sourcePoint"/><mxPoint x="830" y="375" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="waveUp2" value="" style="edgeStyle=none;rounded=0;html=1;strokeWidth=6;strokeColor=#4E79A7;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="830" y="375" as="sourcePoint"/><mxPoint x="830" y="235" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="waveData1b" value="" style="edgeStyle=none;rounded=0;html=1;strokeWidth=6;strokeColor=#4E79A7;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="830" y="235" as="sourcePoint"/><mxPoint x="990" y="235" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="waveStop" value="" style="edgeStyle=none;rounded=0;html=1;strokeWidth=6;strokeColor=#4E79A7;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="990" y="235" as="sourcePoint"/><mxPoint x="1150" y="235" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="waveEndIdle" value="" style="edgeStyle=none;rounded=0;html=1;strokeWidth=6;strokeColor=#4E79A7;startArrow=none;endArrow=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="1150" y="235" as="sourcePoint"/><mxPoint x="1260" y="235" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="labelIdle" value="空闲" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=21;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="190" y="145" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="labelStart" value="起始位" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=21;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="350" y="145" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="labelData1" value="数据位 1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=21;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="510" y="145" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="labelData0" value="数据位 0" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=21;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="670" y="145" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="labelData1b" value="数据位 1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=21;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="830" y="145" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="labelStop" value="停止位" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=21;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="990" y="145" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="markIdle" value="Mark" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#4E79A7;" vertex="1" parent="1">
+          <mxGeometry x="190" y="410" width="160" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="spaceStart" value="Space" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#C05621;" vertex="1" parent="1">
+          <mxGeometry x="350" y="410" width="160" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="markData1" value="Mark" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#4E79A7;" vertex="1" parent="1">
+          <mxGeometry x="510" y="410" width="160" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="spaceData0" value="Space" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#C05621;" vertex="1" parent="1">
+          <mxGeometry x="670" y="410" width="160" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="markData1b" value="Mark" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#4E79A7;" vertex="1" parent="1">
+          <mxGeometry x="830" y="410" width="160" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="markStop" value="Mark" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#4E79A7;" vertex="1" parent="1">
+          <mxGeometry x="990" y="410" width="160" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="bitTime" value="1 个比特时间 Tbit" style="edgeStyle=none;rounded=0;html=1;dashed=1;strokeWidth=2;strokeColor=#D6A23A;startArrow=block;endArrow=block;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#8A6500;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="510" y="490" as="sourcePoint"/><mxPoint x="670" y="490" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="nrz" value="NRZ：每个数据位期间保持当前电平，不回到中间电平" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4D6;strokeColor=#D6A23A;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=23;fontStyle=1;fontColor=#5F4700;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="550" width="900" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="note" value="补充图（非原文图）&lt;br&gt;注：RS-232 的实际电压极性与 TTL 相反" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="390" y="660" width="660" height="55" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

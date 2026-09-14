@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2026-09-14T00:00:00.000Z" agent="Codex" version="24.7.17">
+  <diagram id="full-duplex-uart" name="Page-1">
+    <mxGraphModel dx="1440" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="640" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="UART 全双工通信" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=32;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="420" y="35" width="600" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="deviceA" value="设备 A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F1FB;strokeColor=#4E79A7;strokeWidth=3;fontFamily=Microsoft YaHei;fontSize=28;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="100" y="190" width="250" height="240" as="geometry"/>
+        </mxCell>
+        <mxCell id="deviceB" value="设备 B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F1FB;strokeColor=#4E79A7;strokeWidth=3;fontFamily=Microsoft YaHei;fontSize=28;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="190" width="250" height="240" as="geometry"/>
+        </mxCell>
+        <mxCell id="aTx" value="TX" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=22;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="285" y="225" width="55" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="aRx" value="RX" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=22;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="285" y="360" width="55" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="bRx" value="RX" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=22;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="225" width="55" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="bTx" value="TX" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=22;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="360" width="55" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="forward" value="A 发送数据给 B" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=5;strokeColor=#2E7D32;fontFamily=Microsoft YaHei;fontSize=22;fontStyle=1;fontColor=#2E7D32;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="245" as="sourcePoint"/>
+            <mxPoint x="1090" y="245" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reverse" value="B 同时发送数据给 A" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=5;strokeColor=#C05621;fontFamily=Microsoft YaHei;fontSize=22;fontStyle=1;fontColor=#C05621;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="380" as="sourcePoint"/>
+            <mxPoint x="350" y="380" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="summary" value="两条独立数据线允许两个方向同时传输" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4D6;strokeColor=#D6A23A;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=23;fontStyle=1;fontColor=#5F4700;" vertex="1" parent="1">
+          <mxGeometry x="440" y="455" width="560" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="note" value="补充图（非原文图）" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="540" y="555" width="360" height="35" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
